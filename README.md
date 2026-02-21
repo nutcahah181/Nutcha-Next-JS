@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nutcha-Next-JS
 
-## Getting Started
+My First Next.js Project 🙂
 
-First, run the development server:
+โปรเจกต์นี้เป็นโปรเจกต์ฝึกทำเว็บด้วย **Next.js** และลองใช้ **Bun** เป็น package manager แทน npm/yarn  
+ทำขึ้นเพื่อเรียนรู้โครงสร้างของ Next.js และการรันโปรเจกต์ด้วย Bun
+
+---
+
+## 🚀 สิ่งที่ได้ลองทำในโปรเจกต์นี้
+
+- ติดตั้งและใช้งาน Next.js
+- ใช้ Bun แทน npm/yarn
+- รัน Development Server
+- ทดลอง build สำหรับ production
+- เรียนรู้โครงสร้างโฟลเดอร์ของ Next.js
+
+---
+
+## 🛠 Tech Stack
+
+- Next.js
+- React
+- Bun
+
+---
+
+## 📦 สิ่งที่ต้องติดตั้งก่อน
+
+ติดตั้ง **Bun**  
+👉 https://bun.sh/
+
+ตรวจสอบว่า Bun ใช้งานได้:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun --version
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 วิธีเริ่มต้นใช้งาน
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1. Clone โปรเจกต์
 
-## Learn More
+```bash
+git clone https://github.com/nutcahah181/Nutcha-Next-JS.git
+cd Nutcha-Next-JS
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 2. ติดตั้ง dependencies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+bun install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 3. รันโปรเจกต์
 
-## Deploy on Vercel
+```bash
+bun run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+จากนั้นเปิดเบราว์เซอร์ที่:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+http://localhost:3000
+```
+
+---
+
+## 📁 โครงสร้างโปรเจกต์แบบคร่าว ๆ
+
+```
+app/        หน้าหลักของแอป (App Router)
+public/     ไฟล์รูปภาพ / static files
+styles/     ไฟล์ CSS
+```
+
+---
+
+## 🎯 เป้าหมายของโปรเจกต์นี้
+
+- ฝึกทำเว็บด้วย Next.js
+- เรียนรู้การใช้ Bun
+- เข้าใจพื้นฐานของการ build และ run เว็บแอป
+
+---
+
+## 📌 หมายเหตุ
+
+โปรเจกต์นี้ทำเพื่อการเรียนรู้
+ยังมีหลายอย่างที่สามารถพัฒนาเพิ่มเติมได้ในอนาคต 😊
+
+---
+
+## 👩‍💻 Author
+
+Nutcha Sriakkachan
+Frontend / Android Developer
